@@ -2,6 +2,8 @@
 
 A production-ready fine-tuning system for OpenAI's GPT-OSS-20B model, specialized for expert-level options trading strategy recommendations. This project implements state-of-the-art parameter-efficient fine-tuning techniques optimized for Apple Silicon, with comprehensive experiment tracking and evaluation frameworks.
 
+![OptionsGPT Architecture](visuals/optionsGPTArch.jpg)
+
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -711,25 +713,25 @@ print(f"Invalid: {stats.invalid_examples}")
 - ✅ Data validation and compliance checking
 - ✅ Custom evaluation framework
 
-### Phase 2: Serving Infrastructure (Planned)
-- ⬜ vLLM serving with PagedAttention
-- ⬜ CHWBL load balancing for cache optimization
-- ⬜ OpenAI-compatible API endpoints
-- ⬜ Integration with langfuse, helicone.ai, langsmith
-- ⬜ Vast.ai deployment configuration
+### Phase 2: Serving Infrastructure (Completed)
+- ✅ vLLM serving with PagedAttention
+- ✅ CHWBL load balancing for cache optimization
+- ✅ OpenAI-compatible API endpoints
+- ✅ Integration with langfuse, helicone.ai, langsmith
+- ✅ Vast.ai deployment configuration
 
-### Phase 3: MCP Integration (Planned)
-- ⬜ TypeScript MCP server implementation
-- ⬜ smithery.ai deployment
-- ⬜ Claude Desktop integration
-- ⬜ ChatGPT plugin compatibility
-- ⬜ Custom tools and resources
+### Phase 3: MCP Integration (Completed)
+- ✅ TypeScript MCP server implementation
+- ✅ smithery.ai deployment
+- ✅ Claude Desktop integration
+- ✅ ChatGPT plugin compatibility
+- ✅ Custom tools and resources
 
-### Phase 4: Memory Augmentation (Planned)
-- ⬜ Pinecone vector store integration
-- ⬜ langchain orchestration workflows
-- ⬜ Advanced reranking algorithms
-- ⬜ Context injection for serving system
+### Phase 4: Memory Augmentation (Completed)
+- ✅ Pinecone vector store integration
+- ✅ Langchain orchestration workflows
+- ✅ Advanced reranking algorithms - Cohere Rerank
+- ✅ Context injection for serving system
 
 ## Contributing
 
